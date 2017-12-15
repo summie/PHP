@@ -1,0 +1,11 @@
+<?php
+
+// Example for Xampp, Host/Name Database/User/Password
+return [
+    'database' => [
+        'host' => 'localhost',
+        'name' => 'example',
+        'user' => 'root',
+        'pass' => ''
+    ]
+];
