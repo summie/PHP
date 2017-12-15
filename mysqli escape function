@@ -1,0 +1,4 @@
+// Form escaping before sending to database.
+public function escape($string) {
+        return mysqli_real_escape_string($this->connection, $string);  
+    }
